@@ -17,6 +17,8 @@ import NapXu from "./components/User/NapXu";
 import Login from "./components/User/Login";
 import Register from "./components/User/Register";
 // Lazy load components
+const Register = React.lazy(() => import("./components/User/Register"));
+const Login = React.lazy(() => import("./components/User/Login"));
 
 const App = () => {
   return (
