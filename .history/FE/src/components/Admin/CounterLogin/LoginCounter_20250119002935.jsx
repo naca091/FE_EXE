@@ -6,7 +6,7 @@ const LoginCounter = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  const API_URL = process.env.REACT_APP_API_URL || "https://demcalo.onrender.com";
+  const API_URL = process.env.REACT_APP_API_URL;
 
   useEffect(() => {
     let isMounted = true;

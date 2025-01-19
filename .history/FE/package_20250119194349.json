@@ -4,11 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --port 5173",
+    "dev": "vite --port 5173", // Chạy Vite trên cổng 5173 (mặc định mới)
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview --port 4173"
-    },
+    "preview": "vite preview --port 4173" // Chạy preview build trên cổng 4173
+  },
   "dependencies": {
     "@ant-design/icons": "^5.5.2",
     "@fortawesome/fontawesome-free": "^6.7.2",
