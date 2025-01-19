@@ -16,7 +16,6 @@ import CountLogin from "./components/Admin/CounterLogin/LoginCounter";
 import NapXu from "./components/User/NapXu";
 import Login from "./components/User/Login";
 import Register from "./components/User/Register";
-import Homepage from "./components/User/Homepage";
 // Lazy load components
 const Register = React.lazy(() => import("./components/User/Register"));
 const Login = React.lazy(() => import("./components/User/Login"));
@@ -46,7 +45,10 @@ const App = () => {
             path="/login"
             element={<Login />}
           />
-
+          <Route
+            path="/user/homepage"
+            element={<Homepage />}
+          />
 
           {/* Admin routes */}
           <Route

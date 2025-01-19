@@ -46,7 +46,10 @@ const App = () => {
             path="/login"
             element={<Login />}
           />
-
+          <Route
+            path="/user/homepage"
+            element={<Homepage />}
+          />
 
           {/* Admin routes */}
           <Route
